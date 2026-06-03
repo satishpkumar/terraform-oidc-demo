@@ -1,0 +1,9 @@
+# Local directory for data syncing and downloaded providers/modules
+.terraform/
+
+# Hide execution plans from version control (may contain secrets)
+*.tfplan
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
