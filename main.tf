@@ -4,7 +4,7 @@ resource "aws_instance" "web_server" {
   instance_type = "t3.micro"
 
   tags = {
-    Name        = "Terraform-EC2-Example"
+    Name        = "Terraform-oidc-demo"
     Environment = "Development"
   }
 }
